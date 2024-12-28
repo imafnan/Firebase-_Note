@@ -1,0 +1,7 @@
+.sideNav ul li a{
+    @apply dark:text-white flex text-[20px] font-medium font-poppins text-[#C6C6C6] items-center gap-[5px] mt-[20px] px-[21px] py-[10px]
+    transition-all duration-[.4s]
+}
+.sideNav ul li .activePage{
+    @apply dark:text-black text-black bg-[#D4F6FF]
+}
